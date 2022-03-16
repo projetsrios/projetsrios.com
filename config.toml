@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://projetsrios.netlify.app/"
 title = "Terrassa"
 author = "Daniel Zaragoza (Danielkvist)"
 googleAnalytics = ""
