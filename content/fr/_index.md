@@ -1,11 +1,11 @@
 ---
 title: "Home"
 description: ""
-images: ["undraw_freelancer_b0my.svg"]
+images: ["main-background.jpg"]
 draft: false
 menu: main
 weight: 1
 ---
 
-# Terrassa
+# PROJETS RIOS
 ## Le thème Hugo pour vous. Ou votre entreprise.

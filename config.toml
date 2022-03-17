@@ -1,5 +1,5 @@
 baseurl = "https://projetsrios.netlify.app/"
-title = "Projets Rios"
+title = "PROJETS RIOS INC."
 author = "Igor Baiborodine"
 googleAnalytics = ""
 defaultContentLanguage = "fr"
@@ -8,7 +8,7 @@ paginate = 3
 theme = "hugo-terrassa-theme"
 
 [params]
-    description = "Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
+    description = "TODO: Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
     favicon = "favicon.ico"
     logo = ""
 
@@ -49,10 +49,10 @@ theme = "hugo-terrassa-theme"
     dateFormat = "Monday, Jan, 2006"
 
 [params.contact] # Contact info
-    email = "example@gmail.com"
-    phone = "xxx xxx xxx"
+    email = "info@projetsrios.com"
+    phone = "(514) 261-5284 | (438) 979-0904"
     skype = ""
-    address = "419 Creek St. Revere, MA 02151"
+    address = "6203 Rue Bannantyne, Verdun(QC) H4H 1J4"
 
 [params.social]
     twitter = ""
@@ -106,8 +106,8 @@ theme = "hugo-terrassa-theme"
         languageName = "en"
         weight = 2
         contentDir = "content/en"
-        title = "Projets Rios"
-        description = "Projets Rios"
+        title = "PROJETS RIOS INC."
+        description = "TODO: Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
         [languages.en.params]
             [languages.en.params.form] # Translate contact form fields
                 inputNameLabel = "Name"
