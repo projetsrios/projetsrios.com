@@ -1,8 +1,8 @@
 baseurl = "https://projetsrios.netlify.app/"
 title = "Projets Rios"
-author = "Daniel Zaragoza (Danielkvist)"
+author = "Igor Baiborodine"
 googleAnalytics = ""
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 paginate = 3
 
 theme = "hugo-terrassa-theme"
@@ -29,18 +29,18 @@ theme = "hugo-terrassa-theme"
 
 [params.form] # Contact form
     netlify = true
-    action = "https://formspree.io/your@email.com"
+    action = "https://formspree.io/info@projetsrios.com"
     method = "POST"
     inputNameName = "name"
-    inputNameLabel = "Name"
-    inputNamePlaceholder = "Your name"
+    inputNameLabel = "Nom"
+    inputNamePlaceholder = "Votre nom"
     inputEmailName = "email"
-    inputEmailLabel = "Email"
-    inputEmailPlaceholder = "Your email"
+    inputEmailLabel = "E-mail"
+    inputEmailPlaceholder = "Votre e-mail"
     inputMsgName = "message"
-    inputMsgLabel = "Write something"
+    inputMsgLabel = "Message"
     inputMsgLength = 750
-    inputSubmitValue = "Send"
+    inputSubmitValue = "Envoyer"
 
 [params.posts]
     showAuthor = true
@@ -55,11 +55,11 @@ theme = "hugo-terrassa-theme"
     address = "419 Creek St. Revere, MA 02151"
 
 [params.social]
-    twitter = "https://twitter.com/john"
+    twitter = ""
     facebook = "https://facebook.com/john"
-    github = "https://github.com/john"
+    github = ""
     gitlab = ""
-    codepen = "https://codepen.io/john"
+    codepen = ""
     instagram = "https://instagram.com/john"
     pinterest = ""
     youtube = ""
@@ -97,25 +97,26 @@ theme = "hugo-terrassa-theme"
     show = true
 
 [languages]
+    [languages.fr]
+        languageName = "fr"
+        weight = 1
+        contentDir = "content/fr"
+
     [languages.en]
         languageName = "en"
-        weight = 1
-        contentDir = "content/en"
-      [languages.de]
-        languageName = "de"
         weight = 2
-        contentDir = "content/de"
-        title = "Das ist der deutsche Titel"
-        description = "Das ist die deutsche Beschreibung"
-        [languages.de.params]
-          [languages.de.params.form] # Translate contact form fields
-            inputNameLabel = "Name"
-            inputNamePlaceholder = "Dein Name"
-            inputEmailLabel = "E-mail"
-            inputEmailPlaceholder = "Deine E-Mail-Adresse"
-            inputMsgLabel = "Schreib etwas"
-            inputSubmitValue = "Abschicken"
-            [languages.de.params.cta] # Translate Call To Action
+        contentDir = "content/en"
+        title = "Projets Rios"
+        description = "Projets Rios"
+        [languages.en.params]
+            [languages.en.params.form] # Translate contact form fields
+                inputNameLabel = "Name"
+                inputNamePlaceholder = "Your name"
+                inputEmailLabel = "Email"
+                inputEmailPlaceholder = "Your email"
+                inputMsgLabel = "Message"
+                inputSubmitValue = "Send"
+            [languages.en.params.cta] # Translate Call To Action
                 show = true
-                cta = "Kontakt"
-                link = "de/kontakt/" # Relative URL
+                cta = "Contact"
+                link = "en/contact/" # Relative URL
