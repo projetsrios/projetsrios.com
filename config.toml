@@ -9,7 +9,7 @@ theme = "hugo-terrassa-theme"
 
 [params]
     description = "Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
-    favicon = "pr-favicon.ico"
+    favicon = "favicon.ico"
     logo = ""
 
 [params.hero]
