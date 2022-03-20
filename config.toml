@@ -8,7 +8,7 @@ paginate = 3
 theme = "hugo-terrassa-theme"
 
 [params]
-    description = "TODO: Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
+    description = "Assemblage and installation de mobilier, déménagement, entretien ménager commercial"
     favicon = "favicon.ico"
     logo = ""
 
@@ -107,7 +107,7 @@ theme = "hugo-terrassa-theme"
         weight = 2
         contentDir = "content/en"
         title = "PROJETS RIOS INC."
-        description = "TODO: Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
+        description = "Furniture assembly and installation, commercial moving, commercial cleaning services"
         [languages.en.params]
             [languages.en.params.form] # Translate contact form fields
                 inputNameLabel = "Name"
