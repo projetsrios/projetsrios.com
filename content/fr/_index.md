@@ -8,4 +8,4 @@ weight: 1
 ---
 
 # PROJETS RIOS
-## Le thème Hugo pour vous. Ou votre entreprise.
+## Votre projet, notre équipe.
